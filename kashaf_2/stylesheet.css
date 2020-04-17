@@ -1493,10 +1493,10 @@ audio {
 }
 
 .cake-cover {
-	margin-top: -550px;
+	margin-top: 50px;
 }
 .message {
-	margin-top: -500px;
+	margin-top: 200px;
 	display: none;
 }
 .message p {
