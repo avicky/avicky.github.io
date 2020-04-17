@@ -973,7 +973,7 @@ audio {
 	/*max-width: 50%;/*50% try it*/
 	width: 23%;
 	height:23%;
-	z-index: 99;
+	/*z-index: 99;*/
 	-webkit-transform:translate(-70px,-1000px);
 	-moz-transform:translate(-70px,-1000px);
 	-o-transform:translate(-70px,-1000px);
