@@ -26,7 +26,7 @@ $('document').ready(function(){
 		$('#bulb_pink').addClass('bulb-glow-pink');
 		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#play').fadeIn('slow');
 		});
 	});
@@ -41,18 +41,25 @@ $('document').ready(function(){
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
-		$(this).fadeOut('slow').delay(10000).promise().done(function(){
+		$(this).fadeOut('slow').delay(100).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
 	});
 
 	$('#bannar_coming').click(function(){
-		$('.bannar').addClass('bannar-come');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
-			$('#balloons_flying').fadeIn('slow');
+		$('.front').addClass('front-come');
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
+			$('#bannar_coming_avi').fadeIn('slow');
+			/*$('#balloons_flying').fadeIn('slow');*/
 		});
 	});
 
+	$('#bannar_coming_avi').click(function(){
+		$('.bannar_avi').addClass('bannar-come_avi');
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
+			$('#balloons_flying').fadeIn('slow');
+		});
+	});
 	function loopOne() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
@@ -106,14 +113,14 @@ $('document').ready(function(){
 	function loopEight() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
-		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
+		$('#b8').animate({left:randleft,bottom:randtop},10000,function(){
 			loopEight();
 		});
 	}
 	function loopNine() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
-		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
+		$('#b9').animate({left:randleft,bottom:randtop},10000,function(){
 			loopNine();
 		});
 	}
@@ -137,14 +144,14 @@ $('document').ready(function(){
 		loopEight();
 		loopNine();
 		
-		$(this).fadeOut('slow').delay(30000).promise().done(function(){
+		$(this).fadeOut('slow').delay(300).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
 		});
 	});	
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		});
 	});

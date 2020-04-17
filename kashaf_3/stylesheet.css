@@ -968,6 +968,119 @@ audio {
 	display: none;
 }
 
+
+.bannar_avi {
+	/*max-width: 50%;/*50% try it*/
+	width: 23%;
+	height:23%;
+	z-index: 99;
+	-webkit-transform:translate(-70px,-1000px);
+	-moz-transform:translate(-70px,-1000px);
+	-o-transform:translate(-70px,-1000px);
+	-ms-transform:translate(-70px,-500px);
+	transform:translate(-70px,-1000px);
+
+}
+.bannar-come_avi {
+	-webkit-animation: bannar_come_avi linear 6s;
+	-webkit-transform:translate(-70px,0px);
+	-moz-animation: bannar_come_avi linear 6s;
+	-moz-transform:translate(-70px,0px);
+	-o-animation: bannar_come_avi linear 6s;
+	-o-transform:translate(-70px,0px);
+	-ms-animation: bannar_come_avi linear 6s;
+	-ms-transform:translate(-70px,0px);
+	animation: bannar_come_avi linear 6s;
+	transform:translate(-70px,0px);
+}
+
+@-webkit-keyframes bannar_come_avi {
+	0%{
+		transform:translate(-50px,-1000px);
+	}
+	33%{
+		transform:translate(-50px,0px);
+		transform:rotate(10deg);
+		
+	}
+	66% {
+		transform:translate(-50px,100px);
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:translate(-50px,0px);
+	}
+}
+@-moz-keyframes bannar_come_avi {
+	0%{
+		transform:translate(-50px,-1000px);
+	}
+	33%{
+		transform:translate(-50px,0px);
+		transform:rotate(10deg);
+		
+	}
+	66% {
+		transform:translate(-50px,100px);
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:translate(-50px,0px);
+	}
+}
+@-o-keyframes bannar_come_avi {
+	0%{
+		transform:translate(-50px,-1000px);
+	}
+	33%{
+		transform:translate(-50px,0px);
+		transform:rotate(10deg);
+		
+	}
+	66% {
+		transform:translate(-50px,100px);
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:translate(-50px,0px);
+	}
+}
+@-ms-keyframes bannar_come_avi {
+	0%{
+		transform:translate(-50px,-1000px);
+	}
+	33%{
+		transform:translate(-50px,0px);
+		transform:rotate(10deg);
+		
+	}
+	66% {
+		transform:translate(-50px,100px);
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:translate(-50px,0px);
+	}
+}o
+@keyframes bannar_come_avi {
+	0%{
+		transform:translate(-50px,-1000px);
+	}
+	33%{
+		transform:translate(-50px,0px);
+		transform:rotate(10deg);
+		
+	}
+	66% {
+		transform:translate(-50px,100px);
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:translate(-50px,0px);
+	}
+}
+
+
 .bannar {
 	max-width: 100%;
 	-webkit-transform:translate(0px,-500px);
@@ -1266,7 +1379,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #bannar_coming,#bannar_coming_avi, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
 	display: none;
 }
 
