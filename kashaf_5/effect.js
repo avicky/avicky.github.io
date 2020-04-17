@@ -26,7 +26,7 @@ $('document').ready(function(){
 		$('#bulb_pink').addClass('bulb-glow-pink');
 		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
-		$(this).fadeOut('slow').delay(6000).promise().done(function(){
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#play').fadeIn('slow');
 		});
 	});
@@ -41,14 +41,14 @@ $('document').ready(function(){
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
-		$(this).fadeOut('slow').delay(12000).promise().done(function(){
+		$(this).fadeOut('slow').delay(100).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
 	});
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#bannar_coming_avi').fadeIn('slow');
 			/*$('#balloons_flying').fadeIn('slow');*/
 		});
@@ -56,7 +56,7 @@ $('document').ready(function(){
 
 	$('#bannar_coming_avi').click(function(){
 		$('.bannar_avi').addClass('bannar-come_avi');
-		$(this).fadeOut('slow').delay(12000).promise().done(function(){
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
 	});
@@ -144,14 +144,14 @@ $('document').ready(function(){
 		loopEight();
 		loopNine();
 		
-		$(this).fadeOut('slow').delay(30000).promise().done(function(){
+		$(this).fadeOut('slow').delay(300).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
 		});
 	});	
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		});
 	});
