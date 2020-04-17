@@ -978,20 +978,20 @@ audio {
 	-moz-transform:translate(-70px,-1000px);
 	-o-transform:translate(-70px,-1000px);
 	-ms-transform:translate(-70px,-500px);
-	transform:translate(-70px,-1000px);
+	transform:translate(-100px,-1000px);
 
 }
 .bannar-come_avi {
 	-webkit-animation: bannar_come_avi linear 6s;
-	-webkit-transform:translate(-70px,0px);
+	-webkit-transform:translate(-70px,50px);
 	-moz-animation: bannar_come_avi linear 6s;
-	-moz-transform:translate(-70px,0px);
+	-moz-transform:translate(-70px,50px);
 	-o-animation: bannar_come_avi linear 6s;
-	-o-transform:translate(-70px,0px);
+	-o-transform:translate(-70px,50px);
 	-ms-animation: bannar_come_avi linear 6s;
-	-ms-transform:translate(-70px,0px);
+	-ms-transform:translate(-70px,50px);
 	animation: bannar_come_avi linear 6s;
-	transform:translate(-70px,0px);
+	transform:translate(-100px,50px);
 }
 
 @-webkit-keyframes bannar_come_avi {
@@ -1008,7 +1008,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-50px,0px);
+		transform:translate(-70px,50px);
 	}
 }
 @-moz-keyframes bannar_come_avi {
@@ -1025,7 +1025,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-50px,0px);
+		transform:translate(-70px,50px);
 	}
 }
 @-o-keyframes bannar_come_avi {
@@ -1042,7 +1042,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-50px,0px);
+		transform:translate(-70px,50px);
 	}
 }
 @-ms-keyframes bannar_come_avi {
@@ -1059,7 +1059,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-50px,0px);
+		transform:translate(-70px,50px);
 	}
 }o
 @keyframes bannar_come_avi {
@@ -1076,7 +1076,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-50px,0px);
+		transform:translate(-70px,50px);
 	}
 }
 
