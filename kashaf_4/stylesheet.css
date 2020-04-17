@@ -978,7 +978,7 @@ audio {
 	-moz-transform:translate(-70px,-1000px);
 	-o-transform:translate(-70px,-1000px);
 	-ms-transform:translate(-70px,-500px);
-	transform:translate(-120px,-1000px);
+	transform:translate(-140px,-1000px);
 
 }
 .bannar-come_avi {
@@ -991,7 +991,7 @@ audio {
 	-ms-animation: bannar_come_avi linear 6s;
 	-ms-transform:translate(-70px,50px);
 	animation: bannar_come_avi linear 6s;
-	transform:translate(-120px,150px);
+	transform:translate(-140px,150px);
 }
 
 @-webkit-keyframes bannar_come_avi {
@@ -1008,7 +1008,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-120px,150px);
+		transform:translate(-140px,150px);
 	}
 }
 @-moz-keyframes bannar_come_avi {
@@ -1025,7 +1025,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-120px,150px);
+		transform:translate(-140px,150px);
 	}
 }
 @-o-keyframes bannar_come_avi {
@@ -1042,7 +1042,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-120px,150px);
+		transform:translate(-140px,150px);
 	}
 }
 @-ms-keyframes bannar_come_avi {
@@ -1059,7 +1059,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-120px,150px);
+		transform:translate(-140px,150px);
 	}
 }o
 @keyframes bannar_come_avi {
@@ -1076,7 +1076,7 @@ audio {
 		transform:rotate(-10deg);
 	}
 	100% {
-		transform:translate(-120px,150px);
+		transform:translate(-140px,150px);
 	}
 }
 
