@@ -41,14 +41,14 @@ $('document').ready(function(){
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
-		$(this).fadeOut('slow').delay(10000).promise().done(function(){
+		$(this).fadeOut('slow').delay(15000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
 	});
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming_avi').fadeIn('slow');
 			/*$('#balloons_flying').fadeIn('slow');*/
 		});
@@ -56,7 +56,7 @@ $('document').ready(function(){
 
 	$('#bannar_coming_avi').click(function(){
 		$('.bannar_avi').addClass('bannar-come_avi');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
 	});
@@ -188,7 +188,7 @@ $('document').ready(function(){
 		$('#b99').animate({top:240, left: vw+450},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(5000);
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(30000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
