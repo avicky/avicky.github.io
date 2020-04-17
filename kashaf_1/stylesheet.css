@@ -981,13 +981,13 @@ audio {
 }
 .front-come {
 	-webkit-animation: front_come linear 6s;
-	-webkit-transform:translate(-350px,-60px);
+	-webkit-transform:translate(-350px,-100px);
 	-moz-animation: front_come linear 6s;
-	-moz-transform:translate(-350px,-60px);
+	-moz-transform:translate(-350px,-100px);
 	-o-animation: front_come linear 6s;
-	-o-transform:translate(-350px,-60px);
+	-o-transform:translate(-350px,-100px);
 	-ms-animation: front_come linear 6s;
-	-ms-transform:translate(-350px,-60px);
+	-ms-transform:translate(-350px,-100px);
 	animation: front_come linear 6s;
 	transform:translate(-350px,-100px);
 }
