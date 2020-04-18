@@ -991,7 +991,7 @@ audio {
 	-ms-animation: bannar_come_avi linear 6s;
 	-ms-transform:translate(-70px,0px);
 	animation: bannar_come_avi linear 6s;
-	transform:translate(0px,150px);
+	transform:translate(0px,100px);
 }
 
 @-webkit-keyframes bannar_come_avi {
