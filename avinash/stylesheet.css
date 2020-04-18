@@ -971,8 +971,8 @@ audio {
 
 .bannar_avi {
 	/*max-width: 50%;/*50% try it*/
-	width: 358px;
-	height:448px;
+	width: 80%;
+	height:80%;
 	/*z-index: -1;*/
 	-webkit-transform:translate(-70px,-200px);
 	-moz-transform:translate(-70px,-2000px);
